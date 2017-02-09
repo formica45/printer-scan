@@ -8,7 +8,7 @@
 # The success of this script relies on ports 9100, 515 or 631 being open on the network
 # attached printers being scaned.
 #
-# Justin Gulley
+# -JOG
 
 options=("Individual Network Scan" "From File" "Quit")
 select i in "${options[@]}"; do
